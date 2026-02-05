@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try 2</title>
+    <link rel="stylesheet" href="index.css">
+ <!-- this is the header font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Playwrite+US+Trad+Guides&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+   <!-- and this one is for the rest of the texts  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&family=Playwrite+US+Trad+Guides&family=Press+Start+2P&family=Young+Serif&display=swap" rel="stylesheet">
+  <!-- font-family: "Young Serif", serif; -->
+</head>
+<body>
+
+<h1><span style="color:gray;"> Rock</span> - P<span style="color: rgb(176, 136, 176);">a</span>p<span style="color:rgb(176, 136, 176);">e</span>r - <span style="color: lightblue;">Scissors</span></h1>
+
+<div class="container">
+ <button class="btn1" onclick="gameplay('rock')"></button>
+ <button class="btn2" onclick="gameplay('paper')"></button>
+ <button class="btn3" onclick="gameplay('scissors')"></button>
+</div>
+
+<div id="playerschoicetext"> Player :<span id="playerschoice"></span> </div>
+<div id="computerschoicetext">Computer :<span id="computerschoice"></span></div>
+
+<br>
+<br>
+<div id="output">ITS A TIE!</div>
+<br>
+<br>
+
+<div id="playerscoretext"> Player score : 
+    <span id="playerscore">0</span>
+</div>
+<div id="computerscoretext"> Computer score :
+    <span id="computerscore">0</span>
+</div>
+
+
+
+
+    <script src="index.js"> </script>
+</body>
+</html>
+

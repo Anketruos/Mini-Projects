@@ -1,0 +1,115 @@
+body{
+background: linear-gradient(to bottom , rgb(6, 3, 48) , black);
+height: 100vh;
+}
+h1{
+    color: white;
+    text-align: center;
+  font-family: "Audiowide", sans-serif;
+   font-size: 4rem;
+   margin-left: 60px;
+}
+.btn1 , .btn2 , .btn3
+{
+    height: 130px;
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+     background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f0f0f000;
+    cursor: pointer;
+    
+}
+.btn1
+{
+ background-image:url("Rock\ Emoji.png");
+}
+.btn1:hover{
+    background-color: rgba(255, 255, 255, 0.238);
+  transition-duration: 0.2s;
+}
+.btn1:active
+{
+        background-color: rgba(255, 255, 255, 0.347);
+}
+.btn2
+{
+background-image: url("Paper\ emoji.png");
+}
+.btn2:hover{
+    background-color: rgba(255, 255, 255, 0.238);
+    transition-duration: 0.2s;
+}
+.btn2:active
+{
+        background-color: rgba(255, 255, 255, 0.347);
+}
+.btn3{
+    background-image: url("new\ scissors.png");
+}
+.btn3:hover{
+    background-color: rgba(255, 255, 255, 0.238);
+    transition-duration: 0.2s;
+}
+.btn3:active
+{
+        background-color: rgba(255, 255, 255, 0.347);
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+#playerschoicetext ,#computerschoicetext
+{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Young Serif", serif;
+    padding:5px;
+}
+#playerschoice ,#computerschoice
+{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Young Serif", serif;
+    padding:5px;
+}
+
+#output
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.7rem;
+      font-family: "Audiowide", sans-serif;
+}
+#computerscoretext , #playerscoretext
+{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "Young Serif", serif;
+
+}
+.greencolor
+{
+    color: lightgreen;
+}
+.redcolor
+{
+    color: tomato;
+}
+#playerscore
+{
+     color: lightgreen;
+}
+#computerscore
+{
+    color: tomato;
+}
+
