@@ -1,9 +1,5 @@
 # 🌤️ Sky Weather - Weather App Project
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://sky-weather-web-project.vercel.app/) 
-[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge)](https://vercel.com/) 
-[![OpenWeather API](https://img.shields.io/badge/API-OpenWeatherMap-orange?style=for-the-badge)](https://openweathermap.org/)
-
 Welcome to **Sky Weather**! 🌎✨  
 A sleek weather web app that gives **real-time weather info** for any city. Fully deployed on Vercel and keeps your API key safe with serverless backend functions. 🔒
 
