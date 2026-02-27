@@ -50,28 +50,9 @@ Sky-Weather/
 ├── package.json
 └── README.md
 
-
 ---
 
-## ⚙️ Setup Locally
+https://github.com/user-attachments/assets/d958c526-e6eb-4090-ba6d-f2af301cbcde
 
-1. Clone the repository:
 
-```bash
-git clone https://github.com/Anketruos/Mini-Projects.git
 
-Navigate to the project folder:
-
-cd Sky-Weather
-
-Install dependencies (if needed for local backend testing):
-
-npm install
-
-Create a .env file for local testing:
-
-OPENWEATHER_API_KEY=YOUR_API_KEY_HERE
-
-Start the local development server:
-
-vercel dev
