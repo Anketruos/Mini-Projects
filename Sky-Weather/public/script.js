@@ -17,17 +17,17 @@ input.addEventListener("keydown" , (event)=>
         getdata();
 });
 
-getdata();
 async function getdata()
 {
   const city=input.value.trim();
-  if(city==="")
+  if(city === "")
     {
     error.textContent = "Please enter a city name.";
     return;
     }
-  
+
     try{
+
 const apikey=OPENWEATHER_API_KEY;
 let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&units=metric&appid=${apikey}`);
 if(!response.ok)
@@ -45,14 +45,14 @@ desc.textContent=data.weather[0].description;
 
   error.textContent = "";
     }
-    catch(error)
+    catch(err)
     {
     cityname.textContent = "";
     temp.textContent = "";
     humidity.textContent = "";
     emoji.innerHTML = "";
 
-    error.textContent = error.message; 
+    error.textContent = err.message; 
     }
 }
 
